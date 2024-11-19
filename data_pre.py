@@ -4,7 +4,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
 # 读取完整数据集
-data = pd.read_excel("all_SA_final.csv")
+data = pd.read_csv("all_SA_final.csv")
 
 # 去除列名中的多余空格
 data.columns = data.columns.str.strip()
