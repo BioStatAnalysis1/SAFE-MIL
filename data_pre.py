@@ -4,7 +4,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
 # 读取完整数据集
-data = pd.read_excel("all_SA_final.cvs")
+data = pd.read_excel("all_SA_final.csv")
 
 # 使用之前筛选的 20 个重要特征，再加上 Gender 特征
 selected_features = [
